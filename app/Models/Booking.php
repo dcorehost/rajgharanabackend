@@ -16,7 +16,8 @@ class Booking extends Model
         'no_of_person',
         'adult',
         'child',
-        'package_id'
+        'package_id',
+        'book_camp'
     ];
     public function package()
     {
